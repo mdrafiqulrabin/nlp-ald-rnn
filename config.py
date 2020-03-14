@@ -12,3 +12,9 @@ TEST_LABELED = True
 TRUE_LABELS  = {"NAG":0, "OAG":1, "CAG":2}
 NUM_TARGET   = 3
 
+# Glove File
+GLOVE_FILE = ROOT_PATH + "temp/data/glove.6B/glove.6B.50d.txt"
+PAD_TOKEN, UNK_TOKEN = '<PAD>', '<UNK>'
+PAD_INDEX, UNK_INDEX = 0, 1
+MAX_SEQUENCE_LEN = 20
+
